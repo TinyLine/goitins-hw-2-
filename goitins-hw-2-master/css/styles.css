@@ -1,0 +1,221 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --nav-footer-colot: rgba(255, 255, 255, 0.6);
+    --primary-background-color: #ffffff;
+    --secondary-backgound-color: #f5f4fa;
+    --hero-footer-background: #2f303a;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.link {
+    color: #000000; 
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+/* logo */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-interactive {
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.link.current {
+    color: var(--accent-color);
+}
+.site-nav{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+.site-nav .contacts:hover,
+.site-nav .contacts:focus {
+    color: var(--accent-color);
+}
+
+/* Секція герой */
+.hero {
+    background-color: var(--hero-footer-background);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.hero-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    min-width: 200px;
+
+    color: #ffffff;
+    background-color: #2196f3;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188ce8;
+}
+
+/*Наші переваги */
+.about-us-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.about-us-text {
+    color: var(--secondary-text-color);
+}
+.portfolio{
+font-weight: 500;
+font-size: 14px;
+line-height: 10px;
+list-style-type: none;
+margin-bottom: 0.50em;
+color:var(--secondary-text-color);
+}
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: var(--secondary-text-color);
+text-decoration: none;
+}
+.name{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color:var(--primary-text-color);}
+
+.person{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+color: var(--primary-text-color);}
+
+.tops{
+background: var(--primary-background-color);}
+
+.section-bg{
+background: var(--secondary-backgound-color)}
+
+.footer {
+    background: var(--hero-footer-background);
+}
+
+.logo-footer{
+font-family:'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.adress{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.46;
+color: var(--primary-background-color);
+font-style: normal;
+}
+.email{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.46;
+color: var(--secondary-text-color);
+}
+.bodys{
+background: var(--primary-background-color);}
+
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--hero-footer-background);
+}
+.names{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color)}
+.btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+    text-align: center;
+    cursor: pointer;
+    color:var(--primary-text-color);
+}
+.btn:hover,
+.btn:focus {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.pib{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--secondary-text-color);}
+
+.links {
+    color: #FFFFFF; 
+    text-decoration: none;
+}
