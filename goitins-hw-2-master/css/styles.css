@@ -22,7 +22,7 @@ body {
 }
 .link:hover,
 .link:focus {
-    color: var(--primary-text-color);
+    color:var(--accent-color);
 }
 
 .list {
@@ -68,10 +68,10 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 }
 
-.site-nav .contacts:hover,
-.site-nav .contacts:focus {
+/*.site-nav:hover,
+.site-nav:focus {
     color: var(--accent-color);
-}
+}/*
 
 /* Секція герой */
 .hero {
