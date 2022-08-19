@@ -247,7 +247,7 @@ background: var(--primary-background-color);}
     text-decoration: none;
 }
 .container{
-    width: 1200;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -327,4 +327,11 @@ background: var(--primary-background-color);}
 .top-conection{
     display: flex;
     margin-left: 94px;
+}
+.section{
+    padding-top: 90px;
+    padding-bottom: 94px;
+}
+.buck{
+background-color: #F5F4FA;
 }
